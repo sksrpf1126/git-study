@@ -1,0 +1,11 @@
+git branch // 만들어진 branch 목록 보기
+git branch test  // test라는 branch 만들기
+git checkout test // test라는 branch 로 이동
+git checkout -b test // 만들고 바로 이동
+branch 만드는 것은 현 브랜치를 기준으로 만드는 것. 
+a에서 브랜치 2개 만들면 a에서 분기가 2개 더 추가된 것.
+a에서 b만들고 b로 넘어가서 또 브랜치만들면 b에서 분기가 또 추가 된것.
+git branch -d <branchname> 브랜치 삭제
+git merge (브랜치이름) 대신에 git rebase (브랜치이름) 하면 둘간의 분기로 나눠진걸 하나로 깔끔하게 만들어줌
+
+branch를 만들고 나서 git push origin 브런치이름 을 해줘야 원격저장소에도 branch가 추가가 됨.
