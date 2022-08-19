@@ -19,6 +19,3 @@ last test
 last test2
 last test3
 last4
-pr test
-rrrr
-haha
